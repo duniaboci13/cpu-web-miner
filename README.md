@@ -16,15 +16,15 @@ If you want to build an online miner or if you want to monetize your website you
 import * as cpuWebMiner from 'https://esm.run/@marco_ciaramella/cpu-web-miner';
 
 const stratum = {
-    server: "europe.raptoreum.zone",
-    port: 3333,
-    worker: "RY3WyocxKLRPFGKkUX8jvRyyRKBJaugFd5",
+    server: "stratum-eu.rplant.xyz",
+    port: 7022,
+    worker: "mbc1qe3flkq8el48edhzudr75a2pj0vdf4uvykdygxg",
     password: "x",
     ssl: false // true when pool uses SSL, false otherwise
 }
 
 cpuWebMiner.start(
-    cpuWebMiner.ghostrider,
+    cpuWebMiner.power2b,
     stratum,
     null,
     cpuWebMiner.ALL_THREADS,
@@ -46,15 +46,15 @@ In your frontend add
 import * as cpuWebMiner from "@marco_ciaramella/cpu-web-miner";
 
 const stratum = {
-    server: "europe.raptoreum.zone",
-    port: 3333,
-    worker: "RY3WyocxKLRPFGKkUX8jvRyyRKBJaugFd5",
+    server: "stratum-eu.rplant.xyz",
+    port: 7022,
+    worker: "mbc1qe3flkq8el48edhzudr75a2pj0vdf4uvykdygxg",
     password: "x",
     ssl: false // true when pool uses SSL, false otherwise
 }
 
 cpuWebMiner.start(
-    cpuWebMiner.ghostrider,
+    cpuWebMiner.power2b,
     stratum,
     null,
     cpuWebMiner.ALL_THREADS,
